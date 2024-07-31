@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <style type="text/css">
+            body, html {
+                margin: 0px;
+                padding: 0px;
+                height: 100%;
+                overflow: hidden;
+            }
+            .full-div {
+                overflow: auto;
+            }
+            .height-full {
+                height: 100%;
+            }
+            .container {
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript" src="./public/index.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                var graph = new GraphClient('graph', window);
+            }
+        </script>
+        <div id="graph" class="full-div height-full container"></div>
+    </body>
+</html>

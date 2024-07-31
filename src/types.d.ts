@@ -1,0 +1,1 @@
+type EditorMode = 'edit' | 'view';
